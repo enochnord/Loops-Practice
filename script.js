@@ -23,6 +23,16 @@ while(num < 333) {
     console.log(num);
 }
 
+// another method for the above problem
+console.log("PRINT ALL ODD NUMBERS BETWEEN 300 AND 333")
+var num = 300
+while(num < 333) {
+    if (num % 2 !== 0) {
+        console.log(num);
+    }
+    num+=1;
+}    
+
 // print all numbers divisible by 5 and 3 between 5 and 50
 console.log("PRINT ALL NUMBERS DIVISIBLE BY 5 AND 3 BETWEEN 5 AND 50")
 var num = 5
